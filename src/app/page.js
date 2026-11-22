@@ -5,6 +5,7 @@ import BG from "../images/globe.png";
 import Seekers from "./pages/Seekers";
 import SmartJob from "./pages/SmartJob";
 import Feature from "./pages/Feature";
+import Pricing from "./pages/Pricing";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
     <SmartJob></SmartJob>
     <Feature></Feature>
+    <Pricing></Pricing>
    </div>
   );
 }
